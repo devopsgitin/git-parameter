@@ -1,3 +1,6 @@
 {
   MAIN BLOCK
 }
+{
+  FEATURE1 BLOCK
+}
