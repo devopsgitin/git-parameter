@@ -1,11 +1,11 @@
 pipeline {
   agent any
-//   parameters {
-//     gitParameter branchFilter: 'origin/(.*)', 
-//                  defaultValue: 'feature1', 
-//                  name: 'branchname',  
-//                  type: 'GitParameterDefinition'
-//   }
+  parameters {
+    gitParameter branchFilter: 'origin/(.*)', 
+                 defaultValue: 'feature1', 
+                 name: 'branchname',  
+                 type: 'GitParameterDefinition'
+  }
   stages {
     stage('Example') {
       steps {
